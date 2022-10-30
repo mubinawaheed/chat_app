@@ -1,0 +1,56 @@
+.container1 {
+    border: 2px solid black;
+    width: 810px;
+    height: 400px;
+    background-color: rgb(248, 240, 229);
+    overflow-y: auto;
+    margin: auto;
+}
+
+.msg {
+    background-color: #b2a5a5;
+    font-size: 16px;
+    margin: 8px;
+    font-size: 17px;
+    border-radius: 13px;
+    padding: 6px 10px;
+    width: 24%;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.send {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.inputmsg {
+    width: 750px;
+    border-radius: 6px;
+    height: 37px;
+}
+
+.sendbtn {
+    cursor: pointer;
+    width: 60px;
+    height: 35px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+    background-color: #fdfd5a;
+    clear: both;
+    margin: auto;
+    font-weight: 500;
+}

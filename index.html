@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat-app</title>
+    <!-- this script is for connecting the client to server -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="chat.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h2 class="text-center my-3">Chat App</h2>
+    <div class="container1">
+        <div class="msg left">hi</div>
+        <div class="msg right">hello</div>
+    </div>
+    <div class="send">
+        <form id="form-con" method="post">
+            <input id="inp" class="inputmsg" type="text" name="message" id="message">
+            <button id="send_btn" class="sendbtn" type="submit">send</button>
+        </form>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+</html>
